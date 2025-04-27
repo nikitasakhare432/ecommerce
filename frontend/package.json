@@ -5,9 +5,11 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
+    "@mui/styled-engine": "^7.0.2",
+    "@mui/system": "^7.0.2",
+    "@mui/x-data-grid": "^8.1.0",
     "@paypal/react-paypal-js": "^7.8.3",
     "@reduxjs/toolkit": "^1.9.3",
     "@stripe/react-stripe-js": "^2.1.0",
@@ -34,7 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "install:legacy": "npm install --legacy-peer-deps",
+    "start": "npm run install:legacy && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
