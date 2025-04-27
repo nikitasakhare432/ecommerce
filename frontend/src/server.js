@@ -1,3 +1,3 @@
-export const server = "https://grocery-ecommerce-0zxz.onrender.com/api/v2";
+export const server = "https://grocery-ecommerce-0zxz.onrender.com/";
 
 
