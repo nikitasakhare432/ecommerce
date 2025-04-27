@@ -20,9 +20,8 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 1 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 1 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 1 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             Dashboard
           </h5>
@@ -36,9 +35,8 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 2 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 2 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 2 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             All Orders
           </h5>
@@ -49,9 +47,8 @@ const DashboardSideBar = ({ active }) => {
         <Link to="/dashboard-products" className="w-full flex items-center">
           <FiPackage size={30} color={`${active === 3 ? "crimson" : "#555"}`} />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 3 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 3 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             All Products
           </h5>
@@ -68,9 +65,8 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 4 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 4 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 4 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             Create Product
           </h5>
@@ -84,9 +80,8 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 5 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 5 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 5 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             All Events
           </h5>
@@ -100,49 +95,15 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 6 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 6 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 6 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             Create Event
           </h5>
         </Link>
       </div>
 
-      <div className="w-full flex items-center p-4">
-        <Link
-          to="/dashboard-withdraw-money"
-          className="w-full flex items-center"
-        >
-          <CiMoneyBill
-            size={30}
-            color={`${active === 7 ? "crimson" : "#555"}`}
-          />
-          <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 7 ? "text-[crimson]" : "text-[#555]"
-            }`}
-          >
-            Withdraw Money
-          </h5>
-        </Link>
-      </div>
 
-      <div className="w-full flex items-center p-4">
-        <Link to="/dashboard-messages" className="w-full flex items-center">
-          <BiMessageSquareDetail
-            size={30}
-            color={`${active === 8 ? "crimson" : "#555"}`}
-          />
-          <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 8 ? "text-[crimson]" : "text-[#555]"
-            }`}
-          >
-            Shop Inbox
-          </h5>
-        </Link>
-      </div>
 
       <div className="w-full flex items-center p-4">
         <Link to="/dashboard-coupouns" className="w-full flex items-center">
@@ -151,30 +112,14 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 9 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 9 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 9 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             Discount Codes
           </h5>
         </Link>
       </div>
 
-      <div className="w-full flex items-center p-4">
-        <Link to="/dashboard-refunds" className="w-full flex items-center">
-          <HiOutlineReceiptRefund
-            size={30}
-            color={`${active === 10 ? "crimson" : "#555"}`}
-          />
-          <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 10 ? "text-[crimson]" : "text-[#555]"
-            }`}
-          >
-            Refunds
-          </h5>
-        </Link>
-      </div>
 
       <div className="w-full flex items-center p-4">
         <Link to="/settings" className="w-full flex items-center">
@@ -183,9 +128,8 @@ const DashboardSideBar = ({ active }) => {
             color={`${active === 11 ? "crimson" : "#555"}`}
           />
           <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 11 ? "text-[crimson]" : "text-[#555]"
-            }`}
+            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${active === 11 ? "text-[crimson]" : "text-[#555]"
+              }`}
           >
             Settings
           </h5>

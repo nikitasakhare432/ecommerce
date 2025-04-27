@@ -11,12 +11,12 @@ const DashboardHeader = () => {
   return (
     <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
       <div>
-        <Link to="/dashboard">
-          <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-            alt=""
-          />
-        </Link>
+        <img
+          src="https://dcassetcdn.com/design_img/1187964/510125/510125_6324794_1187964_406face0_image.jpg"
+          className="logo"
+          alt="FreshGrocer Logo"
+          style={{ width: '180px', height: 'auto' }}
+        />
       </div>
       <div className="flex items-center">
         <div className="flex items-center mr-4">

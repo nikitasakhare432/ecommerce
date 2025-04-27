@@ -37,9 +37,10 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-            alt=""
-            style={{ filter: "brightness(0) invert(1)" }}
+            src="https://dcassetcdn.com/design_img/1187964/510125/510125_6324794_1187964_406face0_image.jpg"
+            className="logo"
+            alt="FreshGrocer Logo"
+            style={{ width: '180px', height: 'auto' }}
           />
           <br />
           <p>The home and elements needeed to create beatiful products.</p>
@@ -62,7 +63,7 @@ const Footer = () => {
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Company</h1>
-          {footerProductLinks.map((link,index) => (
+          {footerProductLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300
@@ -77,7 +78,7 @@ const Footer = () => {
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Shop</h1>
-          {footercompanyLinks.map((link,index) => (
+          {footercompanyLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300
@@ -92,7 +93,7 @@ const Footer = () => {
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Support</h1>
-          {footerSupportLinks.map((link,index) => (
+          {footerSupportLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300

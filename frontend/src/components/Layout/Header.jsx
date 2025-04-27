@@ -58,8 +58,10 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
+                src="https://dcassetcdn.com/design_img/1187964/510125/510125_6324794_1187964_406face0_image.jpg"
+                className="logo"
+                alt="FreshGrocer Logo"
+                style={{ width: '180px', height: 'auto' }}
               />
             </Link>
           </div>
@@ -215,9 +217,10 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
-                className="mt-3 cursor-pointer"
+                src="https://dcassetcdn.com/design_img/1187964/510125/510125_6324794_1187964_406face0_image.jpg"
+                className="logo"
+                alt="FreshGrocer Logo"
+                style={{ width: '180px', height: 'auto' }}
               />
             </Link>
           </div>
